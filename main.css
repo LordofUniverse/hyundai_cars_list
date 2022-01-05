@@ -43,6 +43,14 @@ body{
     align-items: center;
 }
 
+#name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 30px;
+    color: rgb(221, 0, 114);
+}
+
 #cars{
     display: flex;
     justify-content: center;
@@ -134,4 +142,99 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#footer{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+#emailme{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(44, 141, 126);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#personal{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.start{
+    width: 59%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 96%;
+}
+
+#mail{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.inp{
+    margin-top: 10px;
+    height: 33px;
+    width: 315px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.finp{
+    margin-top: 10px;
+    height: 53px;
+    width: 315px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+._1fbEI:hover  {
+    background-color: rgb(42, 124, 111, 0.6);
+    border-color: rgba(42, 124, 111, 1);
+}
+
+._1fbEI {
+    background-color: rgba(84, 197, 179);
+    border: solid rgba(42, 124, 111, 1) ;
+    cursor: pointer !important;
+    box-shadow: var(none,0 1px 4px rgba(0,0,0,.6));
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    justify-content: center;
+    width: 50%;
+    height: 54px;
 }
